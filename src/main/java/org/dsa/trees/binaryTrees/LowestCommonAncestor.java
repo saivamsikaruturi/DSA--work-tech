@@ -30,8 +30,8 @@ public class LowestCommonAncestor {
         root.left.right.right = new Node(4);
 
         // Define nodes for which LCA is to be found
-        Node p = root.left;  // Node 5
-        Node q = root.left.right.right;  // Node 4
+        Node p = root.right.right;  // Node 5
+        Node q = root.left.right.right ;  // Node 4
 
         // Find and print the LCA
         Node lca = lowestCommonAncestor(root, p, q);
