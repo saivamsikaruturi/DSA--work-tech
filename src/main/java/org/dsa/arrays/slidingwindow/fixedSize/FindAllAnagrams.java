@@ -1,4 +1,4 @@
-package org.dsa.arrays.slidingwindow;
+package org.dsa.arrays.slidingwindow.fixedSize;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package org.dsa.arrays.slidingwindow;
+package org.dsa.arrays.slidingwindow.fixedSize;
 
 public class MaximumAverageSubArray {
     public static double findMaxAverage(int[] nums, int k) {
