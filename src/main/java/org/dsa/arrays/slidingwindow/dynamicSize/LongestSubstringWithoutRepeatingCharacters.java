@@ -1,4 +1,4 @@
-package org.dsa.arrays.slidingwindow;
+package org.dsa.arrays.slidingwindow.dynamicSize;
 
 public class LongestSubstringWithoutRepeatingCharacters {
 

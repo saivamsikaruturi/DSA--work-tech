@@ -1,4 +1,4 @@
-package org.dsa.arrays.slidingwindow;
+package org.dsa.arrays.slidingwindow.dynamicSize;
 
 public class MinimumSizeSubArraySum {
     public static int minSubArrayLen(int target, int[] nums) {
