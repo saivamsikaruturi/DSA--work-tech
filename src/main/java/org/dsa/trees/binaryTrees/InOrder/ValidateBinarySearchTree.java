@@ -15,8 +15,10 @@ public class ValidateBinarySearchTree {
         int prev = list.get(0);
 
         for(int i = 1;i<list.size();i++){
-            if(prev > list.get(i))
+            if(prev >= list.get(i))
                 return false;
+            else
+                prev = list.get(i);
         }
 
         return true;
@@ -36,11 +38,11 @@ public class ValidateBinarySearchTree {
     }
 
     public static void main(String[] args) {
-        Node node = new Node(4);
-        node.left = new Node(2);
-        node.right = new Node(6);
-        node.left.left = new Node(1);
-        node.left.right = new Node(3);
+        Node node = new Node(5);
+        node.left = new Node(1);
+        node.right = new Node(4);
+        node.right.left = new Node(3);
+        node.right.right = new Node(6);
         System.out.println(checkBst(node));
     }
 }
