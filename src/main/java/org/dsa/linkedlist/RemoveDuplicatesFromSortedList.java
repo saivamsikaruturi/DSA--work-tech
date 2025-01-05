@@ -11,7 +11,7 @@ public class RemoveDuplicatesFromSortedList {
 
         while(current != null){
 
-            // if the dataue is duplicated
+            // if the element is duplicated
             if(current.next != null && current.data == current.next.data){
 
                 //iterate until the elements are same.
