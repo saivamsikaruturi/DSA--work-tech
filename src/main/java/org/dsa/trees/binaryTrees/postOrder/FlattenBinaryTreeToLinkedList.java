@@ -1,4 +1,6 @@
-package org.dsa.trees.binaryTrees;
+package org.dsa.trees.binaryTrees.postOrder;
+
+import org.dsa.trees.binaryTrees.Node;
 
 public class FlattenBinaryTreeToLinkedList {
     public void flatten(Node root) {
