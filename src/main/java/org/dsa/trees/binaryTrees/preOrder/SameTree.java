@@ -1,8 +1,10 @@
-package org.dsa.trees.binaryTrees;
+package org.dsa.trees.binaryTrees.preOrder;
+
+import org.dsa.trees.binaryTrees.Node;
 
 public class SameTree {
 
-     static boolean isSameTree(Node root1,Node root2){
+     static boolean isSameTree(Node root1, Node root2){
          if(root1 == null && root2 == null)
              return true;
 
