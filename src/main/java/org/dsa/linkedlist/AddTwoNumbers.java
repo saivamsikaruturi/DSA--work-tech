@@ -21,7 +21,7 @@ public class AddTwoNumbers {
 
     }
 
-    private static void printList(ListNode result) {
+    public static void printList(ListNode result) {
         while(result!=null){
             System.out.println(result.data);
             result = result.next;
