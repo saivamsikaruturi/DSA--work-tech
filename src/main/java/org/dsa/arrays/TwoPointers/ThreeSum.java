@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ThreeSum {
-    List<List<Integer>> getThreeSum(int[] A) {
+    static List<List<Integer>> getThreeSum(int[] A) {
 
         List<List<Integer>> result = new ArrayList<>();
 
@@ -43,6 +43,10 @@ public class ThreeSum {
 
         return result;
 
+    }
+
+    public static void main(String[] args) {
+        System.out.println(getThreeSum(new int[]{-1,0,1,2,-1,-4}));
     }
 
 }
