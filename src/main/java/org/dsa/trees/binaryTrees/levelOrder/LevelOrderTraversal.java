@@ -1,4 +1,6 @@
-package org.dsa.trees.binaryTrees;
+package org.dsa.trees.binaryTrees.levelOrder;
+
+import org.dsa.trees.binaryTrees.Node;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
