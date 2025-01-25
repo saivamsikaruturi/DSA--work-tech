@@ -53,5 +53,7 @@ public class ZigZagTraversal {
           List<List<Integer>> ans = getZigZagTraversal(node);
 
         ans.forEach(System.out::println);
+
+
     }
 }
